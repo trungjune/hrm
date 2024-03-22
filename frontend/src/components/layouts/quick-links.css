@@ -1,0 +1,78 @@
+.quick-links-wrapper {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+.quick-links-title {
+	font-size: 1rem;
+	color: var(--text);
+}
+
+.quick-links-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.quick-links-inner-container {
+	text-align: center;
+}
+
+.quick-link {
+	width: 6rem;
+	padding: 1rem 1rem;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	border-radius: 3px;
+	background-color: var(--quick-links-bg);
+	color: var(--text);
+}
+
+.quick-link-title {
+	font-size: 0.8rem;
+	margin-top: 0.8rem;
+	display: inline-block;
+	color: var(--text);
+}
+
+.quick-links-icon {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+/* ====== Responsive ====== */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.quick-link-text {
+		font-size: 0.6rem;
+	}
+
+	.quick-links-container {
+		gap: 15px;
+	}
+
+	.quick-link {
+		width: 4rem;
+		padding: 0.5rem;
+		font-size: 1rem;
+		gap: 10px;
+	}
+
+	.quick-links-wrapper {
+		padding-bottom: 0;
+	}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}

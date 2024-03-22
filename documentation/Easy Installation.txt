@@ -1,0 +1,5 @@
+Online Documentation Link: https://osdocs.vercel.app/hrm-os
+
+Local Installation Video Link: https://www.youtube.com/watch?v=RY-DDBoA47I
+
+Linux VPS Installatin Video Link: https://www.youtube.com/watch?v=BGmtjRvIq_8

@@ -1,0 +1,17 @@
+#btn-drawer {
+	height: 31px !important;
+	line-height: 17px !important;
+	margin-left: -6px;
+	margin-right: 5px;
+}
+
+#plus-btn {
+	margin-bottom: 6px !important;
+}
+
+#btn-addProductDrawer {
+	height: 34px !important;
+	line-height: 33px !important;
+	margin-left: 5px;
+	margin-right: 5px;
+}

@@ -1,0 +1,112 @@
+.kanban_div {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.react-kanban-board {
+	height: 95vh !important;
+}
+
+.description-text {
+	font-size: 12px;
+}
+:root {
+	--bg: #ebf0f7;
+	--header: #fbf4f6;
+	--text: #2e2e2f;
+	--white: #fff;
+	--light-grey: #c4cad3;
+	--tag-1: #ceecfd;
+	--tag-1-text: #2e87ba;
+	--tag-2: #d6ede2;
+	--tag-2-text: #13854e;
+	--tag-3: #ceecfd;
+	--tag-3-text: #2d86ba;
+	--tag-4: #f2dcf5;
+	--tag-4-text: #a734ba;
+	--purple: #7784ee;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body {
+	color: var(--text);
+}
+.task {
+	cursor: move;
+	background-color: var(--white);
+	padding: 1rem;
+	border-radius: 8px;
+	width: 100%;
+	box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+	margin-bottom: 1rem;
+	border: 3px dashed transparent;
+}
+.task:hover {
+	box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+	border-color: rgba(162, 179, 207, 0.2) !important;
+}
+.task p {
+	font-size: 15px;
+}
+.task__tag {
+	border-radius: 100px;
+	padding: 2px 13px;
+	font-size: 12px;
+}
+.task__tag--copyright {
+	color: var(--tag-4-text);
+	background-color: var(--tag-4);
+}
+.task__tag--design {
+	color: var(--tag-3-text);
+	background-color: var(--tag-3);
+}
+.task__tag--illustration {
+	color: var(--tag-2-text);
+	background-color: var(--tag-2);
+}
+.task__tags {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.task__options {
+	background: transparent;
+	border: 0;
+	color: var(--light-grey);
+	font-size: 17px;
+}
+.task__stats {
+	position: relative;
+	width: 100%;
+	color: var(--light-grey);
+	font-size: 12px;
+}
+.task__stats span:not(:last-of-type) {
+	margin-right: 1rem;
+}
+.task__stats svg {
+	margin-right: 5px;
+}
+.task__owner {
+	width: 25px;
+	height: 25px;
+	border-radius: 100rem;
+	background: var(--purple);
+	position: absolute;
+	display: inline-block;
+	right: 0;
+	bottom: 0;
+}
+.task-hover {
+	border: 3px dashed var(--light-grey) !important;
+}
+
+.ant-popover-content p {
+	margin: 0;
+}
